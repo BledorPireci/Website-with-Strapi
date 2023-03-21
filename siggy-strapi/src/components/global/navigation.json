@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_global_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "NavLogo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.logo"
+    },
+    "HeaderLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.header-links"
+    },
+    "RightBtn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.header-button-right"
+    },
+    "LeftBtn": {
+      "displayName": "HeaderButtonLeft",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.header-button-left"
+    }
+  }
+}

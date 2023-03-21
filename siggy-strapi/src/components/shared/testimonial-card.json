@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_testimonial_cards",
+  "info": {
+    "displayName": "TestimonialCard"
+  },
+  "options": {},
+  "attributes": {
+    "Profile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

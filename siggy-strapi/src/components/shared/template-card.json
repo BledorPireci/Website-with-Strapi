@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_template_cards",
+  "info": {
+    "displayName": "TemplateCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TemplatePhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TemplateIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "TemplateDescription": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_pricing_lists",
+  "info": {
+    "displayName": "PricingList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ListType": {
+      "type": "string"
+    },
+    "ListValue": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

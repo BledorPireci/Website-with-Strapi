@@ -1,0 +1,101 @@
+.heroSection{
+  display: flex;
+  padding: 100px 0;
+  background-color:#0076EE ;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroWrapper{
+    display: flex;
+    width: 50%;
+    position: relative;
+    padding: 0 10%;
+    @media (max-width: 768px){
+      width: 100%;
+      padding: 0 0 0 2%;
+    }
+    .heroBanner{
+      //position: absolute;
+      //left: 17%;
+      //top:-30%;
+      @media (max-width: 768px){
+
+      }
+    }
+
+  }
+  .sectionWrapper{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    @media (max-width: 768px) {
+      width: 100%;
+      padding-top: 5%;
+    }
+    .contentHero{
+      color: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-right: 20px;
+      @media (max-width: 768px){
+        margin: auto 30px;
+      }
+      .titleContainer{
+        margin-bottom: 30px;
+        max-width: 510px;
+        @media (max-width: 768px){
+
+        }
+        h1{
+          margin: 0;
+          font-size: 52px;
+          font-weight: 700;
+        }
+        h2{
+          margin: 0;
+          font-size: 38px;
+          font-weight: 300;
+        }
+      }
+      .paragraphContainer{
+        max-width: 510px;
+        padding-bottom: 50px;
+        @media (max-width: 768px){
+          max-width: 100%;
+        }
+        h5{
+          margin: 0;
+          font-size: 16px;
+          line-height: 32px;
+          font-weight: 400;
+        }
+      }
+      .buttonWrapper{
+        .handWritten-btn{
+          .handWritten-btn-wrapper{
+            position: relative;
+            display: inline-block;
+            .buttonCircle{
+              position: relative;
+            }
+            h5{
+              position: absolute;
+              display: block;
+              font-family: 'Comic Neue', cursive;
+              font-weight: 700;
+              font-size: 21px;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+    }
+  }
+}

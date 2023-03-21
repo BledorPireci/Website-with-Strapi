@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_blocks_pricings",
+  "info": {
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section-title"
+    },
+    "CardTitle": {
+      "type": "string"
+    },
+    "CardDescription": {
+      "type": "string"
+    },
+    "PricingList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.pricing-list"
+    },
+    "Pricing": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    }
+  }
+}

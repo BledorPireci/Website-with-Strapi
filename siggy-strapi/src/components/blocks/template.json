@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_templates",
+  "info": {
+    "displayName": "Templates",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section-title"
+    },
+    "TemplateCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.template-card"
+    }
+  }
+}

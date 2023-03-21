@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FooterLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.logo"
+    },
+    "Copyright": {
+      "type": "string"
+    },
+    "FooterSocials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-socials"
+    }
+  }
+}

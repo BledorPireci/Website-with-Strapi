@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_testimonials",
+  "info": {
+    "displayName": "Testimonials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section-title"
+    },
+    "TestimonialCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.testimonial-card"
+    }
+  }
+}

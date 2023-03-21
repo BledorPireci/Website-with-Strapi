@@ -1,0 +1,48 @@
+.testimonialProfile{
+  display: flex;
+  justify-content: center;
+  flex: 1 0 33.33%;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 50px;
+  @media (max-width: 992px){
+      flex: 1 0 50%;
+  }
+  @media (max-width: 768px){
+    width: 100%;
+    margin: auto;
+  }
+  .testimonialProfileWrapper{
+    padding: 80px 30px 30px;
+    .profileInfo{
+      display: flex;
+      margin-bottom: 40px;
+      .profileSpecific{
+        padding-left: 40px;
+        h3{
+          font-weight: 700;
+          font-size: 21px;
+          color: #0076EE;
+          word-wrap: break-word;
+          max-width: 100px;
+          margin-bottom: 10px;
+        }
+        h5{
+          font-weight: 400;
+          font-size: 16px;
+          color: #89ACD0
+        }
+      }
+    }
+    .profileDescription{
+      max-width:350px;
+      p{
+        font-weight: 400;
+        font-size: 14px;
+        color: #89ACD0;
+        word-wrap: break-word;
+        max-width: 400px;
+      }
+    }
+  }
+}

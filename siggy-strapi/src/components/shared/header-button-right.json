@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_header_button_rights",
+  "info": {
+    "displayName": "headerButtonRight"
+  },
+  "options": {},
+  "attributes": {
+    "ButtonRightText": {
+      "type": "string"
+    }
+  }
+}

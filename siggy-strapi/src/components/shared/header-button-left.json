@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_header_button_lefts",
+  "info": {
+    "displayName": "HeaderButtonLeft"
+  },
+  "options": {},
+  "attributes": {
+    "ButtonLeftText": {
+      "type": "string"
+    }
+  }
+}

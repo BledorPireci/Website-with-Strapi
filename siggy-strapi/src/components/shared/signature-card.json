@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_signature_cards",
+  "info": {
+    "displayName": "SignatureCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SignatureImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
